@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/*===== VARIABLES CSS =====*/
+:root {
+  --body-font: "Poppins", sans-serif;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+}
+body {
+  margin-top: 10px;
+}
+
+.size-box {
+  margin: 1rem 0;
+  border: 1px solid #d4d5d9;
+  width: fit-content;
+}
+.size-tiitle-box {
+  display: flex;
+}
+.size-head {
+  font-size: 20px;
+  font-weight: 550;
+}
+.size-link {
+  font-size: 18px;
+  text-decoration: none;
+  margin: 2px 0 0 20px;
+  color: red;
+}
+.size-name-box {
+  display: flex;
+  margin-top: 2rem;
+}
+.size-name {
+  border: 1px solid black;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  border-radius: 1.3rem;
+  justify-content: space-around;
+  margin-right: 14px;
+  font-weight: 520;
+}
+
+.button-box {
+  width: fit-content;
+  border: 1px solid #d4d5d9;
+  margin-top: 2.5rem;
+}
+.cart-button {
+  padding: 1rem 2rem;
+  background-color: rgb(55 48 163);
+  color: #d4d5d9;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.4rem;
+}
+.wish-button {
+  font-weight: 700;
+  padding: 1rem 2rem;
+  margin: 0 0 0 2rem;
+  background-color: rgb(238 242 255);
+  border: none;
+  border-radius: 0.4rem;
+}
